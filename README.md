@@ -114,7 +114,11 @@ Admin:
 - `GET /admin/users`
 
 ## Postman API Documentation
-Complete Postman API collection is available documenting all endpoints (auth, tasks, admin). Import the collection to test all endpoints with example requests and responses.
+Complete Postman API collection is available documenting all endpoints (auth, tasks, admin). 
+
+**Published Documentation**: https://documenter.getpostman.com/view/33956960/2sBXqCRQcW
+
+View all endpoints with example requests and responses in the documentation.
 
 ## Create Admin User (optional helper)
 ```bash
