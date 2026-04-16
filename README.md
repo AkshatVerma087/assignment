@@ -92,6 +92,8 @@ Services:
 - Health check: `http://localhost:3000/health`
 - MongoDB: `mongodb://localhost:27017`
 
+**Note:** See `docker-compose.yml` for full configuration and `Dockerfile` files in backend/frontend directories for build details.
+
 ## API Summary
 Base URL (versioned):
 - `http://localhost:3000/api/v1`
@@ -110,6 +112,9 @@ Tasks (authenticated user):
 
 Admin:
 - `GET /admin/users`
+
+## Postman API Documentation
+Complete Postman API collection is available documenting all endpoints (auth, tasks, admin). Import the collection to test all endpoints with example requests and responses.
 
 ## Create Admin User (optional helper)
 ```bash
